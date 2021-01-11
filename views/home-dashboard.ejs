@@ -1,0 +1,16 @@
+<%- include("includes/header") %>
+
+    <div class="container py-md-5 container--narrow">
+      <div class="text-center">
+        <h2>Bonjour <strong><%= user.username %></strong>, votre flux est vide.</h2>
+        <p class="lead text-muted">
+          Votre flux affiche les derniers messages des personnes que vous
+          suivez. Si vous n'avez pas d'amis à suivre, ce n'est pas grave; vous
+          pouvez utiliser la fonction &ldquo;Rechercher&rdquo; dans la barre de
+          menu supérieure pour trouver du contenu écrit par des personnes ayant
+          des intérêts similaires, puis les suivre.
+        </p>
+      </div>
+    </div>
+
+    <%- include('includes/footer') %>
